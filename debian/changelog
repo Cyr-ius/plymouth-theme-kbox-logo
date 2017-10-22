@@ -1,4 +1,4 @@
-plymouth-theme-kbox-logo (#VERSION#) #DIST#; urgency=medium
+plymouth-theme-kbox-logo (1.0.6) stretch; urgency=medium
 
   * Create splashscreen for KBox
 
