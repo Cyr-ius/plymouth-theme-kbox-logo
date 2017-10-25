@@ -1,3 +1,9 @@
+plymouth-theme-kbox-logo (1.0.7) stretch; urgency=medium
+
+  * [b454c59] Kodi 17.5
+
+ -- Cyr-ius <cyr-ius@Hygor>  Wed, 25 Oct 2017 20:31:58 +0200
+
 plymouth-theme-kbox-logo (1.0.6) stretch; urgency=medium
 
   * Create splashscreen for KBox
