@@ -1,3 +1,9 @@
+plymouth-theme-kbox-logo (1.0.9) stretch; urgency=medium
+
+  * [9ee44e1] Fix update theme if new version
+
+ -- Cyr-ius <cyr-ius@Hygor>  Thu, 26 Oct 2017 23:12:42 +0200
+
 plymouth-theme-kbox-logo (1.0.8) stretch; urgency=medium
 
   * [c0284ed] Fix update theme if new version
