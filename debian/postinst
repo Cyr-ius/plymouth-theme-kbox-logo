@@ -20,7 +20,6 @@ set -e
 
 case "$1" in
     configure)
-      if [ -z "${2}" ]; then
         plymouth-set-default-theme -R kbox
         if systemctl get-default | grep -q graphical ; then
 	      if [ -e /boot/cmdline.txt ] ; then
@@ -35,7 +34,6 @@ case "$1" in
 			fi
 	      fi
         fi
-      fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
