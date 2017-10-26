@@ -18,7 +18,7 @@ set -e
 
 
 case "$1" in
-    remove|upgrade|deconfigure)
+    remove)
       PTHEME=$(plymouth-set-default-theme)
       if [ "$PTHEME" = "kbox" ] ; then
         if [ -e /boot/cmdline.txt ] ; then
@@ -29,8 +29,14 @@ case "$1" in
       fi
     ;;
 
-    failed-upgrade)
-    ;;
+  purge)
+	;;
+
+    upgrade|failed-upgrade|disappear)
+	;;
+
+    abort-install|abort-upgrade)
+        ;;
 
     *)
         echo "prerm called with unknown argument \`$1'" >&2
