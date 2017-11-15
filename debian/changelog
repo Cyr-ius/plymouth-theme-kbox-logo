@@ -1,3 +1,10 @@
+plymouth-theme-kbox-logo (1.10) stretch; urgency=medium
+
+  * [9cba255] Fix version
+  * [a8fe52b] 17.6 Splashscreen
+
+ -- Cyr-ius <cyr-ius@Hygor>  Wed, 15 Nov 2017 08:48:02 +0100
+
 plymouth-theme-kbox-logo (1.0.9) stretch; urgency=medium
 
   * [9ee44e1] Fix update theme if new version
